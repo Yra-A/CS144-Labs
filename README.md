@@ -3,6 +3,8 @@ The repo contains my lab implementation for CS144.
 
 This is the [initial website](https://cs144.github.io/) for the course.
 
+And I put my learning record on [my blog](https://yrablog.cn/pages/dda50b/).
+
 ****
 
 For build prereqs, see [the CS144 VM setup instructions](https://web.stanford.edu/class/cs144/vm_howto).
