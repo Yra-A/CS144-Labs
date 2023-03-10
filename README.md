@@ -1,3 +1,9 @@
+# CS 144: Introduction to Computer Networking
+The repo contains my lab implementation for CS144.
+This is the [initial website](https://cs144.github.io/) for the course.
+
+****
+
 For build prereqs, see [the CS144 VM setup instructions](https://web.stanford.edu/class/cs144/vm_howto).
 
 ## Sponge quickstart
