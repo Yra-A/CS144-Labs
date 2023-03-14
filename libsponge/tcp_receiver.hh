@@ -19,9 +19,9 @@ class TCPReceiver {
 
     //! The maximum number of bytes we'll store.
     size_t _capacity;
-    bool syn;
-    bool fin;
-    WrappingInt32 isn;
+    bool syn; // 是否出现过 SYN
+    bool fin; // 是否出现过 FIN
+    WrappingInt32 isn; // the Initial Sequence Number 
 
   public:
     //! \brief Construct a TCP receiver

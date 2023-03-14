@@ -1,1 +1,5 @@
+6:t_recv_transmit
+7:t_recv_window
+8:t_recv_reorder
+9:t_recv_close
 10:t_recv_special

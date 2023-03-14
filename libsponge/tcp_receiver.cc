@@ -38,14 +38,14 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
 
     _reassembler.push_substring(
         data,
-        unwrap(head.seqno, isn, _reassembler.exp()) - syn, // syn 会占据一个 sequence number
+        unwrap(head.seqno, isn, _reassembler.exp() + syn - 1) - syn, // syn 会占据一个 sequence number
         eof
     );
 }
 
 optional<WrappingInt32> TCPReceiver::ackno() const {
     if (syn) { // 接受过数据
-        return wrap(_reassembler.exp() + syn + (_reassembler.empty() && fin), WrappingInt32(isn)); // syn 和 fin 都会占据一个 sequence number
+        return wrap(_reassembler.exp() + syn + (_reassembler.empty() && fin), WrappingInt32(isn)); // syn 和 fin 都会占据一个 sequence number；checkpoint 是上一个 ackno - 1 的位置
     }
     return std::nullopt;
 }

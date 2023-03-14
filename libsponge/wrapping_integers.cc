@@ -32,12 +32,13 @@ WrappingInt32 wrap(uint64_t n, WrappingInt32 isn) {
 //! and the other stream runs from the remote TCPSender to the local TCPReceiver and
 //! has a different ISN.
 uint64_t unwrap(WrappingInt32 n, WrappingInt32 isn, uint64_t checkpoint) {
-    uint64_t down = checkpoint & 0xFFFFFFFF00000000;
-    uint64_t offset = n.raw_value() - isn.raw_value();
-    uint64_t m = down + offset;
-    uint64_t P = 1uL << 32;
-    uint64_t res = m;
-    uint64_t dif = (checkpoint >= res) ? checkpoint - res : res - checkpoint;
+    uint64_t down = checkpoint & 0xFFFFFFFF00000000; // 所属周期的最小值
+    uint64_t offset = n.raw_value() - isn.raw_value(); // 偏移量
+    uint64_t m = down + offset; // checkpoint 所属周期中的一个解
+    uint64_t P = 1uL << 32; // 周期长度
+    uint64_t res = m; 
+    uint64_t dif = (checkpoint >= res) ? checkpoint - res : res - checkpoint; // 当前解的差
+    // 下面是对下一个区间和上一个区间中的解进行判断是否更优，需要注意不要数据上溢和下溢
     if (m + P > P && (m + P - checkpoint) < dif) {
         dif = m + P - checkpoint;
         res = m + P;
