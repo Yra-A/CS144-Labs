@@ -18,19 +18,19 @@ StreamReassembler::StreamReassembler(const size_t capacity) : _output(capacity),
 //! possibly out-of-order, from the logical stream, and assembles any newly
 //! contiguous substrings and writes them into the output stream in order.
 void StreamReassembler::push_substring(const string &data, const size_t index, const bool eof) {
-    size_t up = expected_num + _capacity - stream_out().buffer_size();
+    size_t up = expected_num + _capacity - stream_out().buffer_size(); // Reassembler 中能存储的最大字节序号 up
     if (end_flag) {
         up = std::min(up, end_num);
     }
-    if (index >= up) return;
+    if (index >= up) return; // 不符合直接 return
     
     for (size_t i = expected_num > index ? expected_num - index : 0; i < data.size() && index + i < up; i++) {
-        if (index + i < expected_num) continue;
+        // if (index + i < expected_num) continue;
         buf[index + i] = data[i];
     }   
 
     std::string s;
-    for (size_t i = expected_num; i < up; i++) {
+    for (size_t i = expected_num; i < up; i++) { 
         if (buf.count(i) == 0) break;
         s += buf[i];
         expected_num += 1;

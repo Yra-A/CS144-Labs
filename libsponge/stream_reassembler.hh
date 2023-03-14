@@ -18,10 +18,10 @@ class StreamReassembler {
     size_t _capacity;    //!< The maximum number of bytes
 
     // std::set<std::pair<int, std::string>> buf; 
-    std::unordered_map<size_t, char> buf;
-    size_t expected_num;
-    bool end_flag;
-    size_t end_num;
+    std::unordered_map<size_t, char> buf; // Reassembler 存储字节的数据结构
+    size_t expected_num; // 下一个期望得到的字节序号
+    bool end_flag; // 是否要求以 EOF 来结束
+    size_t end_num; // 最后一个数字 + 1 的位置。
 
   public:
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
