@@ -45,6 +45,9 @@ class StreamReassembler {
     ByteStream &stream_out() { return _output; }
     //!@}
 
+    const size_t &exp() const { return expected_num; }
+    size_t &exp() { return expected_num; }
+
     //! The number of bytes in the substrings stored but not yet reassembled
     //!
     //! \note If the byte at a particular index has been pushed more than once, it
