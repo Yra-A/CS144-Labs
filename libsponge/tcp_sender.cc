@@ -22,17 +22,112 @@ TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const s
     , _initial_retransmission_timeout{retx_timeout}
     , _stream(capacity) {}
 
-uint64_t TCPSender::bytes_in_flight() const { return {}; }
+uint64_t TCPSender::bytes_in_flight() const { return _bytes_in_flight; }
 
-void TCPSender::fill_window() {}
+void TCPSender::fill_window() {
+    if (_syn == false) { // 如果这是第一个报文段(不存数据)
+        TCPSegment seg;
+        seg.header().syn = true; // 设置 syn 比特位
+        _syn = true;
+        send_segment(seg);
+        return;
+    }
+
+    if(_window_size == 0) _window_size = 1; // 如果为 0，则改为 1，进而继续发送数据，防止卡死
+
+    size_t remain = 0;
+    while ((remain = _window_size - (_next_seqno - send_base)) > 0 && _fin == false) { // 具体计算的示意图可以看自顶向下书上的图
+        TCPSegment seg;
+        size_t size = std::min(TCPConfig::MAX_PAYLOAD_SIZE, remain); // 不能超过上限值
+        std::string data = stream_in().read(size);
+        seg.payload() = Buffer(std::move(data)); // 节省了拷贝开销
+
+        // 设置 FIN 位
+        if (stream_in().eof() && seg.length_in_sequence_space() + 1 <= remain) { // fin 位也会占据一个序号
+            _fin = true;
+            seg.header().fin = true;
+        }
+
+        if (seg.length_in_sequence_space() == 0) {
+            return;
+        }
+        send_segment(seg);
+    }
+
+}
 
 //! \param ackno The remote receiver's ackno (acknowledgment number)
 //! \param window_size The remote receiver's advertised window size
-void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) { DUMMY_CODE(ackno, window_size); }
+void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) {
+    size_t abs_ackno = unwrap(ackno, _isn, send_base);
+    if (abs_ackno > _next_seqno) return;
+
+    _window_size = window_size;
+
+    if (abs_ackno <= send_base) return; // 已接收过的 ack
+    send_base = abs_ackno;
+
+    while (!_outstanding.empty()) {
+        auto &seg = _outstanding.front();
+        // size_t first_seqn = unwrap(seg.header().seqno, _isn, send_base);
+        size_t first_seqn = unwrap(seg.header().seqno, _isn, send_base);
+        if (first_seqn + seg.length_in_sequence_space() <= send_base) {
+            _bytes_in_flight -= seg.length_in_sequence_space();
+            _outstanding.pop();
+        } else {
+            break;
+        }
+    }
+
+    _rto = _initial_retransmission_timeout; // 重置 RTO
+    _consecutive_retransmissions = 0; // 重置连续重传次数
+    fill_window(); // 尽可能发送
+    if (_outstanding.size()) { // 如果还有别的已发送未确认报文段就重启计时器
+        _timer_running = true;
+        _timer = 0;
+    }
+}
 
 //! \param[in] ms_since_last_tick the number of milliseconds since the last call to this method
-void TCPSender::tick(const size_t ms_since_last_tick) { DUMMY_CODE(ms_since_last_tick); }
+void TCPSender::tick(const size_t ms_since_last_tick) {
+    _timer += ms_since_last_tick;
+    if (_outstanding.empty()) {
+        _timer_running = false;  // 关闭计时器
+        return;
+    }
+    if (_timer >= _rto) {
+        _segments_out.emplace(_outstanding.front()); // 重传最早的那个段
+        _rto *= 2; // rto 翻倍
+        _timer = 0; // 重置计时器
+        _consecutive_retransmissions += 1; // 连续重传次数 + 1
+        _timer_running = true; // 开启计时器
+    }
+}
 
-unsigned int TCPSender::consecutive_retransmissions() const { return {}; }
+unsigned int TCPSender::consecutive_retransmissions() const { return _consecutive_retransmissions; }
 
-void TCPSender::send_empty_segment() {}
+void TCPSender::send_empty_segment() { // 无 payload, SYN, or FIN
+    TCPSegment seg;
+    seg.header().seqno = wrap(_next_seqno, _isn);
+    _segments_out.emplace(seg);
+}
+
+void TCPSender::send_empty_segment(WrappingInt32 seqno) {
+    // empty segment doesn't need store to outstanding queue
+    TCPSegment seg;
+    seg.header().seqno = seqno;
+    _segments_out.push(seg);
+}
+
+void TCPSender::send_segment(TCPSegment &seg) {
+    seg.header().seqno = wrap(_next_seqno, _isn);
+    _bytes_in_flight += seg.length_in_sequence_space();
+    _next_seqno += seg.length_in_sequence_space();
+    _outstanding.emplace(seg);
+    _segments_out.emplace(seg);
+
+    if (_timer_running == false) { // 开启计时器
+        _timer_running = true;
+        _timer = 0;
+    }
+}

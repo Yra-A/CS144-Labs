@@ -1,28 +1,42 @@
 t_webget 20 0.0618806
-t_byte_stream_construction 60 0.000254671
-t_byte_stream_one_write 60 0.000259776
-t_byte_stream_two_writes 60 0.000255683
-t_byte_stream_capacity 60 0.0374395
-t_byte_stream_many_writes 72 0.000473888
-t_address_dt 77 0.00023761
-t_parser_dt 77 0.000182341
-t_socket_dt 77 0.000259657
-t_strm_reassem_single 25 0.00065686
-t_strm_reassem_seq 50 0.000380164
-t_strm_reassem_dup 45 0.000646134
-t_strm_reassem_holes 24 0.000669528
-t_strm_reassem_many 49 0.0609688
-t_strm_reassem_overlapping 48 0.00033998
-t_strm_reassem_win 46 0.0664705
-t_strm_reassem_cap 26 0.018156
-t_wrapping_ints_cmp 35 0.000434448
-t_wrapping_ints_unwrap 25 0.000526986
-t_wrapping_ints_wrap 34 0.000399369
-t_wrapping_ints_roundtrip 27 0.0152739
-t_recv_connect 17 0.00131859
-t_recv_transmit 8 0.361126
-t_recv_window 8 0.00217065
-t_recv_reorder 8 0.00233073
-t_recv_close 8 0.0022945
-t_recv_special 3 0.00665269
+t_byte_stream_construction 63 0.000390964
+t_byte_stream_one_write 63 0.000249074
+t_byte_stream_two_writes 63 0.000247598
+t_byte_stream_capacity 63 0.0364028
+t_byte_stream_many_writes 75 0.000542918
+t_address_dt 80 0.000219108
+t_parser_dt 80 0.000171661
+t_socket_dt 80 0.000242228
+t_strm_reassem_single 28 0.000860426
+t_strm_reassem_seq 53 0.000350808
+t_strm_reassem_dup 48 0.000603921
+t_strm_reassem_holes 27 0.000623513
+t_strm_reassem_many 52 0.0696706
+t_strm_reassem_overlapping 51 0.000642174
+t_strm_reassem_win 49 0.0679214
+t_strm_reassem_cap 29 0.017038
+t_wrapping_ints_cmp 38 0.00039777
+t_wrapping_ints_unwrap 28 0.000468155
+t_wrapping_ints_wrap 37 0.000444512
+t_wrapping_ints_roundtrip 30 0.0152261
+t_recv_connect 20 0.00101906
+t_recv_transmit 11 0.263904
+t_recv_window 11 0.00154991
+t_recv_reorder 11 0.00167742
+t_recv_close 11 0.00169631
+t_recv_special 6 0.00325541
+t_send_connect 0 0
+t_send_transmit 0 0
+t_send_retx 0 0
+t_send_window 0 0
+t_send_ack 0 0
+t_send_close 0 0
+t_send_extra 0 0
 ---
+t_send_connect
+t_send_transmit
+t_send_retx
+t_send_window
+t_send_ack
+t_send_close
+t_send_extra

@@ -32,11 +32,24 @@ class TCPSender {
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
 
+    std::queue<TCPSegment> _outstanding{}; // 用来存储发送了但还未被确认的报文段
+    bool _syn = false;
+    bool _fin = false;
+    size_t _window_size = 0; // 当前接收窗口大小
+    size_t _consecutive_retransmissions = 0; // 连续重传次数
+    unsigned int _timer = 0; // 计时器
+    unsigned int _rto = 0; // 当前的 RTO
+    bool _timer_running = false; // 计时器运行状态
+    size_t send_base = 0; // 第一个发送还未被确认的序号
+    size_t _bytes_in_flight = 0;
+
   public:
     //! Initialize a TCPSender
     TCPSender(const size_t capacity = TCPConfig::DEFAULT_CAPACITY,
               const uint16_t retx_timeout = TCPConfig::TIMEOUT_DFLT,
               const std::optional<WrappingInt32> fixed_isn = {});
+
+    void send_segment(TCPSegment &seg);
 
     //! \name "Input" interface for the writer
     //!@{
@@ -52,6 +65,7 @@ class TCPSender {
 
     //! \brief Generate an empty-payload segment (useful for creating empty ACK segments)
     void send_empty_segment();
+    void send_empty_segment(WrappingInt32 seqno);
 
     //! \brief create and send segments to fill as much of the window as possible
     void fill_window();
