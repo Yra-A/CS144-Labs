@@ -20,11 +20,16 @@ using namespace std;
 TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const std::optional<WrappingInt32> fixed_isn)
     : _isn(fixed_isn.value_or(WrappingInt32{random_device()()}))
     , _initial_retransmission_timeout{retx_timeout}
-    , _stream(capacity) {}
+    , _stream(capacity)
+    , _rto(retx_timeout) {}
 
 uint64_t TCPSender::bytes_in_flight() const { return _bytes_in_flight; }
 
 void TCPSender::fill_window() {
+    if (_fin) { // 已经结束了
+        return;
+    };
+
     if (_syn == false) { // 如果这是第一个报文段(不存数据)
         TCPSegment seg;
         seg.header().syn = true; // 设置 syn 比特位
@@ -33,14 +38,24 @@ void TCPSender::fill_window() {
         return;
     }
 
-    if(_window_size == 0) _window_size = 1; // 如果为 0，则改为 1，进而继续发送数据，防止卡死
+    size_t win = _window_size;
+    if (win == 0) win = 1;
 
-    size_t remain = 0;
-    while ((remain = _window_size - (_next_seqno - send_base)) > 0 && _fin == false) { // 具体计算的示意图可以看自顶向下书上的图
+    // 没有数据了，且此时有空间
+    if (stream_in().eof() && send_base + win > _next_seqno) {
+        TCPSegment seg;
+        seg.header().fin = true;
+        _fin = true;
+        send_segment(seg);
+        return;
+    }
+
+    // 还有数据的话，且此时有空间
+    size_t remain = 0; // 计算剩余空间，即 next_seqno 到右端点(send_base + win)的距离
+    while ((remain = win - (_next_seqno - send_base)) > 0 && !stream_in().buffer_empty() && _fin == false) { // 具体计算的示意图可以看自顶向下书上的图
         TCPSegment seg;
         size_t size = std::min(TCPConfig::MAX_PAYLOAD_SIZE, remain); // 不能超过上限值
-        std::string data = stream_in().read(size);
-        seg.payload() = Buffer(std::move(data)); // 节省了拷贝开销
+        seg.payload() = _stream.read(std::min(size, _stream.buffer_size()));
 
         // 设置 FIN 位
         if (stream_in().eof() && seg.length_in_sequence_space() + 1 <= remain) { // fin 位也会占据一个序号
@@ -53,7 +68,6 @@ void TCPSender::fill_window() {
         }
         send_segment(seg);
     }
-
 }
 
 //! \param ackno The remote receiver's ackno (acknowledgment number)
@@ -91,16 +105,18 @@ void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
 //! \param[in] ms_since_last_tick the number of milliseconds since the last call to this method
 void TCPSender::tick(const size_t ms_since_last_tick) {
     _timer += ms_since_last_tick;
-    if (_outstanding.empty()) {
-        _timer_running = false;  // 关闭计时器
+    if (_outstanding.empty()) {_timer_running = false;  // 关闭计时器
         return;
     }
+        
     if (_timer >= _rto) {
         _segments_out.emplace(_outstanding.front()); // 重传最早的那个段
-        _rto *= 2; // rto 翻倍
         _timer = 0; // 重置计时器
-        _consecutive_retransmissions += 1; // 连续重传次数 + 1
         _timer_running = true; // 开启计时器
+        if (_window_size > 0 || _outstanding.front().header().syn) { // 需要满足接收窗口非零
+            _rto *= 2;
+            _consecutive_retransmissions += 1;
+        }
     }
 }
 
@@ -110,13 +126,6 @@ void TCPSender::send_empty_segment() { // 无 payload, SYN, or FIN
     TCPSegment seg;
     seg.header().seqno = wrap(_next_seqno, _isn);
     _segments_out.emplace(seg);
-}
-
-void TCPSender::send_empty_segment(WrappingInt32 seqno) {
-    // empty segment doesn't need store to outstanding queue
-    TCPSegment seg;
-    seg.header().seqno = seqno;
-    _segments_out.push(seg);
 }
 
 void TCPSender::send_segment(TCPSegment &seg) {

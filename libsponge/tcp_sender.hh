@@ -43,6 +43,8 @@ class TCPSender {
     size_t send_base = 0; // 第一个发送还未被确认的序号
     size_t _bytes_in_flight = 0;
 
+    
+
   public:
     //! Initialize a TCPSender
     TCPSender(const size_t capacity = TCPConfig::DEFAULT_CAPACITY,
@@ -65,7 +67,6 @@ class TCPSender {
 
     //! \brief Generate an empty-payload segment (useful for creating empty ACK segments)
     void send_empty_segment();
-    void send_empty_segment(WrappingInt32 seqno);
 
     //! \brief create and send segments to fill as much of the window as possible
     void fill_window();

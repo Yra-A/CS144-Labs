@@ -1,33 +1,29 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/Yra/CS144/libsponge/byte_stream.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o"
-  "/home/Yra/CS144/libsponge/stream_reassembler.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o"
-  "/home/Yra/CS144/libsponge/tcp_helpers/tcp_header.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o"
-  "/home/Yra/CS144/libsponge/tcp_helpers/tcp_segment.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o"
-  "/home/Yra/CS144/libsponge/tcp_helpers/tcp_state.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o"
-  "/home/Yra/CS144/libsponge/tcp_receiver.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o"
-  "/home/Yra/CS144/libsponge/tcp_sender.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o"
-  "/home/Yra/CS144/libsponge/util/address.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/address.cc.o"
-  "/home/Yra/CS144/libsponge/util/buffer.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o"
-  "/home/Yra/CS144/libsponge/util/eventloop.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o"
-  "/home/Yra/CS144/libsponge/util/file_descriptor.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o"
-  "/home/Yra/CS144/libsponge/util/parser.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/parser.cc.o"
-  "/home/Yra/CS144/libsponge/util/socket.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/socket.cc.o"
-  "/home/Yra/CS144/libsponge/util/tun.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/tun.cc.o"
-  "/home/Yra/CS144/libsponge/util/util.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/util/util.cc.o"
-  "/home/Yra/CS144/libsponge/wrapping_integers.cc" "/home/Yra/CS144/build/libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../libsponge/util"
-  "../libsponge/tcp_helpers"
-  "../libsponge"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/maowenjun/CS144-Labs/libsponge/byte_stream.cc" "libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/stream_reassembler.cc" "libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/tcp_helpers/tcp_header.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/tcp_helpers/tcp_segment.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/tcp_helpers/tcp_state.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/tcp_receiver.cc" "libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/tcp_sender.cc" "libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/address.cc" "libsponge/CMakeFiles/sponge.dir/util/address.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/buffer.cc" "libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/eventloop.cc" "libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/file_descriptor.cc" "libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/parser.cc" "libsponge/CMakeFiles/sponge.dir/util/parser.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/parser.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/socket.cc" "libsponge/CMakeFiles/sponge.dir/util/socket.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/socket.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/tun.cc" "libsponge/CMakeFiles/sponge.dir/util/tun.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/tun.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/util/util.cc" "libsponge/CMakeFiles/sponge.dir/util/util.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/util.cc.o.d"
+  "/home/maowenjun/CS144-Labs/libsponge/wrapping_integers.cc" "libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o.d"
   )
 
 # Targets to which this target links.

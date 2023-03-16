@@ -1,42 +1,34 @@
-t_webget 20 0.0618806
-t_byte_stream_construction 63 0.000390964
-t_byte_stream_one_write 63 0.000249074
-t_byte_stream_two_writes 63 0.000247598
-t_byte_stream_capacity 63 0.0364028
-t_byte_stream_many_writes 75 0.000542918
-t_address_dt 80 0.000219108
-t_parser_dt 80 0.000171661
-t_socket_dt 80 0.000242228
-t_strm_reassem_single 28 0.000860426
-t_strm_reassem_seq 53 0.000350808
-t_strm_reassem_dup 48 0.000603921
-t_strm_reassem_holes 27 0.000623513
-t_strm_reassem_many 52 0.0696706
-t_strm_reassem_overlapping 51 0.000642174
-t_strm_reassem_win 49 0.0679214
-t_strm_reassem_cap 29 0.017038
-t_wrapping_ints_cmp 38 0.00039777
-t_wrapping_ints_unwrap 28 0.000468155
-t_wrapping_ints_wrap 37 0.000444512
-t_wrapping_ints_roundtrip 30 0.0152261
-t_recv_connect 20 0.00101906
-t_recv_transmit 11 0.263904
-t_recv_window 11 0.00154991
-t_recv_reorder 11 0.00167742
-t_recv_close 11 0.00169631
-t_recv_special 6 0.00325541
-t_send_connect 0 0
-t_send_transmit 0 0
-t_send_retx 0 0
-t_send_window 0 0
-t_send_ack 0 0
-t_send_close 0 0
-t_send_extra 0 0
+t_wrapping_ints_cmp 16 7.87681e-05
+t_wrapping_ints_unwrap 16 4.55102e-05
+t_wrapping_ints_wrap 16 4.64802e-05
+t_wrapping_ints_roundtrip 16 0.00458546
+t_recv_connect 16 0.000116797
+t_recv_transmit 16 0.00183818
+t_recv_window 16 0.000129299
+t_recv_reorder 16 9.76028e-05
+t_recv_close 16 8.96957e-05
+t_recv_special 16 0.000112242
+t_send_connect 15 0.000103183
+t_send_transmit 15 0.00146005
+t_send_retx 8 0.000226249
+t_send_window 15 0.000869911
+t_send_ack 15 0.000138704
+t_send_close 15 0.000115255
+t_send_extra 11 0.000206977
+t_strm_reassem_single 16 6.92278e-05
+t_strm_reassem_seq 16 9.2802e-05
+t_strm_reassem_dup 16 0.000162582
+t_strm_reassem_holes 16 5.69021e-05
+t_strm_reassem_many 16 0.0146006
+t_strm_reassem_overlapping 16 7.63706e-05
+t_strm_reassem_win 16 0.0148288
+t_strm_reassem_cap 16 0.00305102
+t_byte_stream_construction 16 9.5603e-05
+t_byte_stream_one_write 16 9.35079e-05
+t_byte_stream_two_writes 16 0.00011914
+t_byte_stream_capacity 16 0.0121104
+t_byte_stream_many_writes 16 0.000225325
+t_address_dt 16 0.000126808
+t_parser_dt 16 5.73407e-05
+t_socket_dt 16 0.000139669
 ---
-t_send_connect
-t_send_transmit
-t_send_retx
-t_send_window
-t_send_ack
-t_send_close
-t_send_extra
