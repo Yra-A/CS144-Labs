@@ -39,7 +39,7 @@ void TCPSender::fill_window() {
     }
 
     size_t win = _window_size;
-    if (win == 0) win = 1;
+    if (win == 0) win = 1; // 如果为 0，那么要继续发送一个字节的比特
 
     // 没有数据了，且此时有空间
     if (stream_in().eof() && send_base + win > _next_seqno) {
@@ -62,10 +62,6 @@ void TCPSender::fill_window() {
             _fin = true;
             seg.header().fin = true;
         }
-
-        if (seg.length_in_sequence_space() == 0) {
-            return;
-        }
         send_segment(seg);
     }
 }
@@ -74,18 +70,18 @@ void TCPSender::fill_window() {
 //! \param window_size The remote receiver's advertised window size
 void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) {
     size_t abs_ackno = unwrap(ackno, _isn, send_base);
-    if (abs_ackno > _next_seqno) return;
+    if (abs_ackno > _next_seqno) return; // 超出了可接受范围
 
     _window_size = window_size;
 
     if (abs_ackno <= send_base) return; // 已接收过的 ack
-    send_base = abs_ackno;
+    send_base = abs_ackno; 
 
     while (!_outstanding.empty()) {
         auto &seg = _outstanding.front();
         // size_t first_seqn = unwrap(seg.header().seqno, _isn, send_base);
         size_t first_seqn = unwrap(seg.header().seqno, _isn, send_base);
-        if (first_seqn + seg.length_in_sequence_space() <= send_base) {
+        if (first_seqn + seg.length_in_sequence_space() <= send_base) { // 已经收到 ack 了
             _bytes_in_flight -= seg.length_in_sequence_space();
             _outstanding.pop();
         } else {
