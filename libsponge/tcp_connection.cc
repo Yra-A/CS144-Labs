@@ -159,9 +159,10 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     }
     // CLOSE_WAIT
     else if (rev_st == "FIN_RECV" && sen_st == "SYN_ACKED" && _linger_after_streams_finish == false) {
-        _sender.ack_received(seg.header().ackno, seg.header().win);
-        _receiver.segment_received(seg);
-        send_data();
+        if (seg.header().fin) { // 此状态接收到报文段说明需要重传
+            _sender.send_empty_segment();
+            return;
+        }
     }
     // LAST_ACK
     else if (rev_st == "FIN_RECV" && sen_st == "FIN_SENT" && _linger_after_streams_finish == false) {

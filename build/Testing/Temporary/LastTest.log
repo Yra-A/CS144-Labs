@@ -1,47 +1,22 @@
-Start testing: Mar 18 00:44 CST
+Start testing: Mar 18 00:48 CST
 ----------------------------------------------------------
 37/169 Testing: t_passive_close
 37/169 Test: t_passive_close
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_passive_close"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_passive_close" start time: Mar 18 00:44 CST
+"t_passive_close" start time: Mar 18 00:48 CST
 Output:
 ----------------------------------------------------------
 SYN_RECV SYN_ACKED 1------------------
 SYN_RECV SYN_ACKED 1------------------
 SYN_RECV SYN_ACKED 1------------------
 FIN_RECV SYN_ACKED 0------------------
-Test Failure on expectation:
-	Expectation: exactly one segment sent with (A=1,ackno=2,)
-
-Failure message:
-	The TCP should have produced a segment that existed, but it did not
-
-List of steps that executed successfully:
-	Action:      connect
-	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=0,payload_size=0,)
-	Action:      packet arrives: Header(flags=SA,seqno=0,ack=1,win=137) with no payload
-	Expectation: exactly one segment sent with (A=1,R=0,S=0,F=0,ackno=1,payload_size=0,)
-	Action:      4000ms pass
-	Expectation: TCP in state sender=`stream ongoing`, receiver=`SYN received (ackno exists), and input to stream hasn't ended`, active=1, linger_after_streams_finish=1
-	Action:      packet arrives: Header(flags=AF,seqno=1,ack=0,win=137) with no payload
-	Action:      1ms pass
-	Expectation: exactly one segment sent with (A=1,ackno=2,)
-	Expectation: TCP in state sender=`stream ongoing`, receiver=`input to stream has ended`, active=1, linger_after_streams_finish=0
-	Action:      packet arrives: Header(flags=AF,seqno=1,ack=0,win=137) with no payload
-	Action:      1ms pass
-
-Note:
-	test 3 falied: bad response to 2nd FIN
-
-Warning: Unclean shutdown of TCPConnection
-The TCP should have produced a segment that existed, but it did not寄
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"t_passive_close" end time: Mar 18 00:44 CST
+Test Passed.
+"t_passive_close" end time: Mar 18 00:48 CST
 "t_passive_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 18 00:44 CST
+End testing: Mar 18 00:48 CST

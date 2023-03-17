@@ -35,7 +35,7 @@ t_webget 12 0.0852084
 t_tcp_parser 12 0.000197335
 t_ipv4_parser 12 0.000201935
 t_active_close 9 0.000135464
-t_passive_close 26 0
+t_passive_close 28 5.31793e-05
 t_ack_rst 9 0.000161687
 t_ack_rst_win 9 0.000119207
 t_connect 8 0.000204426
@@ -161,4 +161,3 @@ t_isnD_128K_8K_l 11 0.0528341
 t_isnD_128K_8K_L 11 0.0400888
 t_isnD_128K_8K_lL 11 0.479782
 ---
-t_passive_close
