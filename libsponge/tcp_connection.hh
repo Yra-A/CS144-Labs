@@ -5,6 +5,7 @@
 #include "tcp_receiver.hh"
 #include "tcp_sender.hh"
 #include "tcp_state.hh"
+#include <limits>
 
 //! \brief A complete endpoint of a TCP connection
 class TCPConnection {
@@ -20,6 +21,11 @@ class TCPConnection {
     //! for 10 * _cfg.rt_timeout milliseconds after both streams have ended,
     //! in case the remote TCPConnection doesn't know we've received its whole stream?
     bool _linger_after_streams_finish{true};
+
+    bool _active = true;
+    size_t _time_since_last_segment_received = 0;
+
+    void send_data();
 
   public:
     //! \name "Input" interface for the writer

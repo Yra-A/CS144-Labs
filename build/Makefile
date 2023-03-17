@@ -270,6 +270,84 @@ sponge/fast:
 .PHONY : sponge/fast
 
 #=============================================================================
+# Target rules for targets named stream_copy
+
+# Build rule for target.
+stream_copy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stream_copy
+.PHONY : stream_copy
+
+# fast build rule for target.
+stream_copy/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/stream_copy.dir/build.make apps/CMakeFiles/stream_copy.dir/build
+.PHONY : stream_copy/fast
+
+#=============================================================================
+# Target rules for targets named udp_tcpdump
+
+# Build rule for target.
+udp_tcpdump: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_tcpdump
+.PHONY : udp_tcpdump
+
+# fast build rule for target.
+udp_tcpdump/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/udp_tcpdump.dir/build.make apps/CMakeFiles/udp_tcpdump.dir/build
+.PHONY : udp_tcpdump/fast
+
+#=============================================================================
+# Target rules for targets named tcp_native
+
+# Build rule for target.
+tcp_native: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_native
+.PHONY : tcp_native
+
+# fast build rule for target.
+tcp_native/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_native.dir/build.make apps/CMakeFiles/tcp_native.dir/build
+.PHONY : tcp_native/fast
+
+#=============================================================================
+# Target rules for targets named tun
+
+# Build rule for target.
+tun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tun
+.PHONY : tun
+
+# fast build rule for target.
+tun/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tun.dir/build.make apps/CMakeFiles/tun.dir/build
+.PHONY : tun/fast
+
+#=============================================================================
+# Target rules for targets named tcp_udp
+
+# Build rule for target.
+tcp_udp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_udp
+.PHONY : tcp_udp
+
+# fast build rule for target.
+tcp_udp/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_udp.dir/build.make apps/CMakeFiles/tcp_udp.dir/build
+.PHONY : tcp_udp/fast
+
+#=============================================================================
+# Target rules for targets named tcp_ipv4
+
+# Build rule for target.
+tcp_ipv4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_ipv4
+.PHONY : tcp_ipv4
+
+# fast build rule for target.
+tcp_ipv4/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ipv4.dir/build.make apps/CMakeFiles/tcp_ipv4.dir/build
+.PHONY : tcp_ipv4/fast
+
+#=============================================================================
 # Target rules for targets named webget
 
 # Build rule for target.
@@ -281,6 +359,19 @@ webget: cmake_check_build_system
 webget/fast:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/build
 .PHONY : webget/fast
+
+#=============================================================================
+# Target rules for targets named tcp_benchmark
+
+# Build rule for target.
+tcp_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_benchmark
+.PHONY : tcp_benchmark
+
+# fast build rule for target.
+tcp_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_benchmark.dir/build.make apps/CMakeFiles/tcp_benchmark.dir/build
+.PHONY : tcp_benchmark/fast
 
 #=============================================================================
 # Target rules for targets named spongechecks
@@ -307,6 +398,84 @@ tcp_parser: cmake_check_build_system
 tcp_parser/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/build
 .PHONY : tcp_parser/fast
+
+#=============================================================================
+# Target rules for targets named ipv4_parser
+
+# Build rule for target.
+ipv4_parser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ipv4_parser
+.PHONY : ipv4_parser
+
+# fast build rule for target.
+ipv4_parser/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/build
+.PHONY : ipv4_parser/fast
+
+#=============================================================================
+# Target rules for targets named fsm_active_close
+
+# Build rule for target.
+fsm_active_close: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_active_close
+.PHONY : fsm_active_close
+
+# fast build rule for target.
+fsm_active_close/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/build
+.PHONY : fsm_active_close/fast
+
+#=============================================================================
+# Target rules for targets named fsm_passive_close
+
+# Build rule for target.
+fsm_passive_close: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_passive_close
+.PHONY : fsm_passive_close
+
+# fast build rule for target.
+fsm_passive_close/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/build
+.PHONY : fsm_passive_close/fast
+
+#=============================================================================
+# Target rules for targets named fsm_ack_rst_relaxed
+
+# Build rule for target.
+fsm_ack_rst_relaxed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_ack_rst_relaxed
+.PHONY : fsm_ack_rst_relaxed
+
+# fast build rule for target.
+fsm_ack_rst_relaxed/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build
+.PHONY : fsm_ack_rst_relaxed/fast
+
+#=============================================================================
+# Target rules for targets named fsm_ack_rst_win_relaxed
+
+# Build rule for target.
+fsm_ack_rst_win_relaxed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_ack_rst_win_relaxed
+.PHONY : fsm_ack_rst_win_relaxed
+
+# fast build rule for target.
+fsm_ack_rst_win_relaxed/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build
+.PHONY : fsm_ack_rst_win_relaxed/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_cap
+
+# Build rule for target.
+fsm_stream_reassembler_cap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_cap
+.PHONY : fsm_stream_reassembler_cap
+
+# fast build rule for target.
+fsm_stream_reassembler_cap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
+.PHONY : fsm_stream_reassembler_cap/fast
 
 #=============================================================================
 # Target rules for targets named fsm_stream_reassembler_single
@@ -400,17 +569,160 @@ fsm_stream_reassembler_win/fast:
 .PHONY : fsm_stream_reassembler_win/fast
 
 #=============================================================================
-# Target rules for targets named fsm_stream_reassembler_cap
+# Target rules for targets named fsm_connect_relaxed
 
 # Build rule for target.
-fsm_stream_reassembler_cap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_cap
-.PHONY : fsm_stream_reassembler_cap
+fsm_connect_relaxed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_connect_relaxed
+.PHONY : fsm_connect_relaxed
 
 # fast build rule for target.
-fsm_stream_reassembler_cap/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
-.PHONY : fsm_stream_reassembler_cap/fast
+fsm_connect_relaxed/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/build
+.PHONY : fsm_connect_relaxed/fast
+
+#=============================================================================
+# Target rules for targets named fsm_listen_relaxed
+
+# Build rule for target.
+fsm_listen_relaxed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_listen_relaxed
+.PHONY : fsm_listen_relaxed
+
+# fast build rule for target.
+fsm_listen_relaxed/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/build
+.PHONY : fsm_listen_relaxed/fast
+
+#=============================================================================
+# Target rules for targets named fsm_reorder
+
+# Build rule for target.
+fsm_reorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_reorder
+.PHONY : fsm_reorder
+
+# fast build rule for target.
+fsm_reorder/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/build
+.PHONY : fsm_reorder/fast
+
+#=============================================================================
+# Target rules for targets named fsm_loopback
+
+# Build rule for target.
+fsm_loopback: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_loopback
+.PHONY : fsm_loopback
+
+# fast build rule for target.
+fsm_loopback/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback.dir/build.make tests/CMakeFiles/fsm_loopback.dir/build
+.PHONY : fsm_loopback/fast
+
+#=============================================================================
+# Target rules for targets named fsm_loopback_win
+
+# Build rule for target.
+fsm_loopback_win: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_loopback_win
+.PHONY : fsm_loopback_win
+
+# fast build rule for target.
+fsm_loopback_win/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback_win.dir/build.make tests/CMakeFiles/fsm_loopback_win.dir/build
+.PHONY : fsm_loopback_win/fast
+
+#=============================================================================
+# Target rules for targets named fsm_retx_relaxed
+
+# Build rule for target.
+fsm_retx_relaxed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_retx_relaxed
+.PHONY : fsm_retx_relaxed
+
+# fast build rule for target.
+fsm_retx_relaxed/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_relaxed.dir/build.make tests/CMakeFiles/fsm_retx_relaxed.dir/build
+.PHONY : fsm_retx_relaxed/fast
+
+#=============================================================================
+# Target rules for targets named fsm_retx_win
+
+# Build rule for target.
+fsm_retx_win: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_retx_win
+.PHONY : fsm_retx_win
+
+# fast build rule for target.
+fsm_retx_win/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/build
+.PHONY : fsm_retx_win/fast
+
+#=============================================================================
+# Target rules for targets named fsm_winsize
+
+# Build rule for target.
+fsm_winsize: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_winsize
+.PHONY : fsm_winsize
+
+# fast build rule for target.
+fsm_winsize/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/build
+.PHONY : fsm_winsize/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_cmp
+
+# Build rule for target.
+wrapping_integers_cmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_cmp
+.PHONY : wrapping_integers_cmp
+
+# fast build rule for target.
+wrapping_integers_cmp/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
+.PHONY : wrapping_integers_cmp/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_unwrap
+
+# Build rule for target.
+wrapping_integers_unwrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_unwrap
+.PHONY : wrapping_integers_unwrap
+
+# fast build rule for target.
+wrapping_integers_unwrap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
+.PHONY : wrapping_integers_unwrap/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_wrap
+
+# Build rule for target.
+wrapping_integers_wrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_wrap
+.PHONY : wrapping_integers_wrap
+
+# fast build rule for target.
+wrapping_integers_wrap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
+.PHONY : wrapping_integers_wrap/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_roundtrip
+
+# Build rule for target.
+wrapping_integers_roundtrip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_roundtrip
+.PHONY : wrapping_integers_roundtrip
+
+# fast build rule for target.
+wrapping_integers_roundtrip/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/build
+.PHONY : wrapping_integers_roundtrip/fast
 
 #=============================================================================
 # Target rules for targets named byte_stream_construction
@@ -476,58 +788,6 @@ byte_stream_many_writes: cmake_check_build_system
 byte_stream_many_writes/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_many_writes.dir/build.make tests/CMakeFiles/byte_stream_many_writes.dir/build
 .PHONY : byte_stream_many_writes/fast
-
-#=============================================================================
-# Target rules for targets named wrapping_integers_cmp
-
-# Build rule for target.
-wrapping_integers_cmp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_cmp
-.PHONY : wrapping_integers_cmp
-
-# fast build rule for target.
-wrapping_integers_cmp/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
-.PHONY : wrapping_integers_cmp/fast
-
-#=============================================================================
-# Target rules for targets named wrapping_integers_unwrap
-
-# Build rule for target.
-wrapping_integers_unwrap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_unwrap
-.PHONY : wrapping_integers_unwrap
-
-# fast build rule for target.
-wrapping_integers_unwrap/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
-.PHONY : wrapping_integers_unwrap/fast
-
-#=============================================================================
-# Target rules for targets named wrapping_integers_wrap
-
-# Build rule for target.
-wrapping_integers_wrap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_wrap
-.PHONY : wrapping_integers_wrap
-
-# fast build rule for target.
-wrapping_integers_wrap/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
-.PHONY : wrapping_integers_wrap/fast
-
-#=============================================================================
-# Target rules for targets named wrapping_integers_roundtrip
-
-# Build rule for target.
-wrapping_integers_roundtrip: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_roundtrip
-.PHONY : wrapping_integers_roundtrip
-
-# fast build rule for target.
-wrapping_integers_roundtrip/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/build
-.PHONY : wrapping_integers_roundtrip/fast
 
 #=============================================================================
 # Target rules for targets named recv_connect
@@ -762,6 +1022,17 @@ help:
 	@echo "... byte_stream_many_writes"
 	@echo "... byte_stream_one_write"
 	@echo "... byte_stream_two_writes"
+	@echo "... fsm_ack_rst_relaxed"
+	@echo "... fsm_ack_rst_win_relaxed"
+	@echo "... fsm_active_close"
+	@echo "... fsm_connect_relaxed"
+	@echo "... fsm_listen_relaxed"
+	@echo "... fsm_loopback"
+	@echo "... fsm_loopback_win"
+	@echo "... fsm_passive_close"
+	@echo "... fsm_reorder"
+	@echo "... fsm_retx_relaxed"
+	@echo "... fsm_retx_win"
 	@echo "... fsm_stream_reassembler_cap"
 	@echo "... fsm_stream_reassembler_dup"
 	@echo "... fsm_stream_reassembler_holes"
@@ -770,6 +1041,8 @@ help:
 	@echo "... fsm_stream_reassembler_seq"
 	@echo "... fsm_stream_reassembler_single"
 	@echo "... fsm_stream_reassembler_win"
+	@echo "... fsm_winsize"
+	@echo "... ipv4_parser"
 	@echo "... parser_dt"
 	@echo "... recv_close"
 	@echo "... recv_connect"
@@ -787,7 +1060,14 @@ help:
 	@echo "... socket_dt"
 	@echo "... sponge"
 	@echo "... spongechecks"
+	@echo "... stream_copy"
+	@echo "... tcp_benchmark"
+	@echo "... tcp_ipv4"
+	@echo "... tcp_native"
 	@echo "... tcp_parser"
+	@echo "... tcp_udp"
+	@echo "... tun"
+	@echo "... udp_tcpdump"
 	@echo "... webget"
 	@echo "... wrapping_integers_cmp"
 	@echo "... wrapping_integers_roundtrip"

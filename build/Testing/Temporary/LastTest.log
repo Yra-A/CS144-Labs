@@ -1,17 +1,17 @@
-Start testing: Mar 16 20:31 CST
+Start testing: Mar 17 18:25 CST
 ----------------------------------------------------------
 1/169 Testing: t_wrapping_ints_cmp
 1/169 Test: t_wrapping_ints_cmp
 Command: "/home/maowenjun/CS144-Labs/build/tests/wrapping_integers_cmp"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_wrapping_ints_cmp" start time: Mar 16 20:31 CST
+"t_wrapping_ints_cmp" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_cmp" end time: Mar 16 20:31 CST
+"t_wrapping_ints_cmp" end time: Mar 17 18:25 CST
 "t_wrapping_ints_cmp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/169 Test: t_wrapping_ints_unwrap
 Command: "/home/maowenjun/CS144-Labs/build/tests/wrapping_integers_unwrap"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_wrapping_ints_unwrap" start time: Mar 16 20:31 CST
+"t_wrapping_ints_unwrap" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_unwrap" end time: Mar 16 20:31 CST
+"t_wrapping_ints_unwrap" end time: Mar 17 18:25 CST
 "t_wrapping_ints_unwrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 3/169 Test: t_wrapping_ints_wrap
 Command: "/home/maowenjun/CS144-Labs/build/tests/wrapping_integers_wrap"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_wrapping_ints_wrap" start time: Mar 16 20:31 CST
+"t_wrapping_ints_wrap" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_wrap" end time: Mar 16 20:31 CST
+"t_wrapping_ints_wrap" end time: Mar 17 18:25 CST
 "t_wrapping_ints_wrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 4/169 Test: t_wrapping_ints_roundtrip
 Command: "/home/maowenjun/CS144-Labs/build/tests/wrapping_integers_roundtrip"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_wrapping_ints_roundtrip" start time: Mar 16 20:31 CST
+"t_wrapping_ints_roundtrip" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.07 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_roundtrip" end time: Mar 16 20:31 CST
+"t_wrapping_ints_roundtrip" end time: Mar 17 18:25 CST
 "t_wrapping_ints_roundtrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 5/169 Test: t_recv_connect
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_connect"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_connect" start time: Mar 16 20:31 CST
+"t_recv_connect" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_connect" end time: Mar 16 20:31 CST
+"t_recv_connect" end time: Mar 17 18:25 CST
 "t_recv_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 6/169 Test: t_recv_transmit
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_transmit"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_transmit" start time: Mar 16 20:31 CST
+"t_recv_transmit" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_transmit" end time: Mar 16 20:31 CST
+"t_recv_transmit" end time: Mar 17 18:25 CST
 "t_recv_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 7/169 Test: t_recv_window
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_window"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_window" start time: Mar 16 20:31 CST
+"t_recv_window" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_window" end time: Mar 16 20:31 CST
+"t_recv_window" end time: Mar 17 18:25 CST
 "t_recv_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 8/169 Test: t_recv_reorder
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_reorder"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_reorder" start time: Mar 16 20:31 CST
+"t_recv_reorder" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_reorder" end time: Mar 16 20:31 CST
+"t_recv_reorder" end time: Mar 17 18:25 CST
 "t_recv_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 9/169 Test: t_recv_close
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_close"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_close" start time: Mar 16 20:31 CST
+"t_recv_close" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_close" end time: Mar 16 20:31 CST
+"t_recv_close" end time: Mar 17 18:25 CST
 "t_recv_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +139,14 @@ Test Passed.
 10/169 Test: t_recv_special
 Command: "/home/maowenjun/CS144-Labs/build/tests/recv_special"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_recv_special" start time: Mar 16 20:31 CST
+"t_recv_special" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_special" end time: Mar 16 20:31 CST
+"t_recv_special" end time: Mar 17 18:25 CST
 "t_recv_special" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +154,14 @@ Test Passed.
 11/169 Test: t_send_connect
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_connect"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_connect" start time: Mar 16 20:31 CST
+"t_send_connect" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_connect" end time: Mar 16 20:31 CST
+"t_send_connect" end time: Mar 17 18:25 CST
 "t_send_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +169,14 @@ Test Passed.
 12/169 Test: t_send_transmit
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_transmit"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_transmit" start time: Mar 16 20:31 CST
+"t_send_transmit" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_transmit" end time: Mar 16 20:31 CST
+"t_send_transmit" end time: Mar 17 18:25 CST
 "t_send_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +184,14 @@ Test Passed.
 13/169 Test: t_send_retx
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_retx"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_retx" start time: Mar 16 20:31 CST
+"t_send_retx" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_retx" end time: Mar 16 20:31 CST
+"t_send_retx" end time: Mar 17 18:25 CST
 "t_send_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +199,14 @@ Test Passed.
 14/169 Test: t_send_window
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_window"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_window" start time: Mar 16 20:31 CST
+"t_send_window" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_window" end time: Mar 16 20:31 CST
+"t_send_window" end time: Mar 17 18:25 CST
 "t_send_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +214,14 @@ Test Passed.
 15/169 Test: t_send_ack
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_ack"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_ack" start time: Mar 16 20:31 CST
+"t_send_ack" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_ack" end time: Mar 16 20:31 CST
+"t_send_ack" end time: Mar 17 18:25 CST
 "t_send_ack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,14 +229,14 @@ Test Passed.
 16/169 Test: t_send_close
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_close"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_close" start time: Mar 16 20:31 CST
+"t_send_close" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_close" end time: Mar 16 20:31 CST
+"t_send_close" end time: Mar 17 18:25 CST
 "t_send_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,14 +244,14 @@ Test Passed.
 17/169 Test: t_send_extra
 Command: "/home/maowenjun/CS144-Labs/build/tests/send_extra"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_send_extra" start time: Mar 16 20:31 CST
+"t_send_extra" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_extra" end time: Mar 16 20:31 CST
+"t_send_extra" end time: Mar 17 18:25 CST
 "t_send_extra" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -259,14 +259,14 @@ Test Passed.
 18/169 Test: t_strm_reassem_single
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_single"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_single" start time: Mar 16 20:31 CST
+"t_strm_reassem_single" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Mar 16 20:31 CST
+"t_strm_reassem_single" end time: Mar 17 18:25 CST
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,14 +274,14 @@ Test Passed.
 19/169 Test: t_strm_reassem_seq
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_seq"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_seq" start time: Mar 16 20:31 CST
+"t_strm_reassem_seq" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Mar 16 20:31 CST
+"t_strm_reassem_seq" end time: Mar 17 18:25 CST
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -289,14 +289,14 @@ Test Passed.
 20/169 Test: t_strm_reassem_dup
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_dup"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_dup" start time: Mar 16 20:31 CST
+"t_strm_reassem_dup" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Mar 16 20:31 CST
+"t_strm_reassem_dup" end time: Mar 17 18:25 CST
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -304,14 +304,14 @@ Test Passed.
 21/169 Test: t_strm_reassem_holes
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_holes"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_holes" start time: Mar 16 20:31 CST
+"t_strm_reassem_holes" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Mar 16 20:31 CST
+"t_strm_reassem_holes" end time: Mar 17 18:25 CST
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -319,14 +319,14 @@ Test Passed.
 22/169 Test: t_strm_reassem_many
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_many"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_many" start time: Mar 16 20:31 CST
+"t_strm_reassem_many" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.24 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Mar 16 20:31 CST
+"t_strm_reassem_many" end time: Mar 17 18:25 CST
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -334,14 +334,14 @@ Test Passed.
 23/169 Test: t_strm_reassem_overlapping
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_overlapping" start time: Mar 16 20:31 CST
+"t_strm_reassem_overlapping" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Mar 16 20:31 CST
+"t_strm_reassem_overlapping" end time: Mar 17 18:25 CST
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -349,14 +349,14 @@ Test Passed.
 24/169 Test: t_strm_reassem_win
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_win"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_win" start time: Mar 16 20:31 CST
+"t_strm_reassem_win" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.24 sec
+Test time =   0.26 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Mar 16 20:31 CST
+"t_strm_reassem_win" end time: Mar 17 18:25 CST
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -364,14 +364,14 @@ Test Passed.
 25/169 Test: t_strm_reassem_cap
 Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_stream_reassembler_cap"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_strm_reassem_cap" start time: Mar 16 20:31 CST
+"t_strm_reassem_cap" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Mar 16 20:31 CST
+"t_strm_reassem_cap" end time: Mar 17 18:25 CST
 "t_strm_reassem_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -379,14 +379,14 @@ Test Passed.
 26/169 Test: t_byte_stream_construction
 Command: "/home/maowenjun/CS144-Labs/build/tests/byte_stream_construction"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_byte_stream_construction" start time: Mar 16 20:31 CST
+"t_byte_stream_construction" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Mar 16 20:31 CST
+"t_byte_stream_construction" end time: Mar 17 18:25 CST
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -394,14 +394,14 @@ Test Passed.
 27/169 Test: t_byte_stream_one_write
 Command: "/home/maowenjun/CS144-Labs/build/tests/byte_stream_one_write"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_byte_stream_one_write" start time: Mar 16 20:31 CST
+"t_byte_stream_one_write" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Mar 16 20:31 CST
+"t_byte_stream_one_write" end time: Mar 17 18:25 CST
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,14 +409,14 @@ Test Passed.
 28/169 Test: t_byte_stream_two_writes
 Command: "/home/maowenjun/CS144-Labs/build/tests/byte_stream_two_writes"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_byte_stream_two_writes" start time: Mar 16 20:31 CST
+"t_byte_stream_two_writes" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Mar 16 20:31 CST
+"t_byte_stream_two_writes" end time: Mar 17 18:25 CST
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -424,14 +424,14 @@ Test Passed.
 29/169 Test: t_byte_stream_capacity
 Command: "/home/maowenjun/CS144-Labs/build/tests/byte_stream_capacity"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_byte_stream_capacity" start time: Mar 16 20:31 CST
+"t_byte_stream_capacity" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Mar 16 20:31 CST
+"t_byte_stream_capacity" end time: Mar 17 18:25 CST
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -439,29 +439,406 @@ Test Passed.
 30/169 Test: t_byte_stream_many_writes
 Command: "/home/maowenjun/CS144-Labs/build/tests/byte_stream_many_writes"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_byte_stream_many_writes" start time: Mar 16 20:31 CST
+"t_byte_stream_many_writes" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Mar 16 20:31 CST
+"t_byte_stream_many_writes" end time: Mar 17 18:25 CST
 "t_byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/169 Testing: t_webget
+31/169 Test: t_webget
+Command: "/home/maowenjun/CS144-Labs/tests/webget_t.sh"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_webget" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Function called: get_URL(cs144.keithw.org, /nph-hasher/xyzzy).
+Warning: get_URL() has not been implemented yet.
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Mar 17 18:25 CST
+"t_webget" time elapsed: 00:00:01
+----------------------------------------------------------
+
+34/169 Testing: t_tcp_parser
+34/169 Test: t_tcp_parser
+Command: "/home/maowenjun/CS144-Labs/build/tests/tcp_parser" "/home/maowenjun/CS144-Labs/tests/ipv4_parser.data"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_tcp_parser" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_tcp_parser" end time: Mar 17 18:25 CST
+"t_tcp_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/169 Testing: t_ipv4_parser
+35/169 Test: t_ipv4_parser
+Command: "/home/maowenjun/CS144-Labs/build/tests/ipv4_parser" "/home/maowenjun/CS144-Labs/tests/ipv4_parser.data"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_parser" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_parser" end time: Mar 17 18:25 CST
+"t_ipv4_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/169 Testing: t_active_close
+36/169 Test: t_active_close
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_active_close"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_active_close" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=0,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_active_close" end time: Mar 17 18:25 CST
+"t_active_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/169 Testing: t_passive_close
+37/169 Test: t_passive_close
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_passive_close"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_passive_close" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=0,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_passive_close" end time: Mar 17 18:25 CST
+"t_passive_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/169 Testing: t_ack_rst
+39/169 Test: t_ack_rst
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_ack_rst_relaxed"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ack_rst" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test 1
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=2147483647,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_ack_rst" end time: Mar 17 18:25 CST
+"t_ack_rst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/169 Testing: t_ack_rst_win
+41/169 Test: t_ack_rst_win
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_ack_rst_win_relaxed"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ack_rst_win" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=2147483647,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_ack_rst_win" end time: Mar 17 18:25 CST
+"t_ack_rst_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/169 Testing: t_connect
+43/169 Test: t_connect
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_connect_relaxed"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_connect" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	exactly one segment sent with (A=0,S=1,)
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+	Action:      1ms pass
+
+Note:
+	test 1 failed: could not parse SYN segment or invalid flags
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_connect" end time: Mar 17 18:25 CST
+"t_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/169 Testing: t_listen
+45/169 Test: t_listen
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_listen_relaxed"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_listen" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	exactly one segment sent with (A=1,S=1,ackno=1,)
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      listen
+	Expectation: TCP in state sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+	Action:      1ms pass
+	Expectation: TCP in state sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+	Action:      packet arrives: Header(flags=S,seqno=0,ack=0,win=137) with no payload
+	Action:      1ms pass
+
+Note:
+	test 1 failed: no SYN/ACK in response to SYN
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_listen" end time: Mar 17 18:25 CST
+"t_listen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/169 Testing: t_winsize
+46/169 Test: t_winsize
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_winsize"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_winsize" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	exactly one segment sent with (A=1,ackno=2278023971,win=15349,)
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      listen
+	Action:      packet arrives: Header(flags=S,seqno=2278023970,ack=0,win=137) with no payload
+
+Note:
+	test 1 failed: SYN/ACK invalid
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_winsize" end time: Mar 17 18:25 CST
+"t_winsize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/169 Testing: t_retx
+48/169 Test: t_retx
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_retx_relaxed"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_retx" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=202178381,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_retx" end time: Mar 17 18:25 CST
+"t_retx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/169 Testing: t_retx_win
+49/169 Test: t_retx_win
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_retx_win"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_retx_win" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=4007925548,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_retx_win" end time: Mar 17 18:25 CST
+"t_retx_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/169 Testing: t_loopback
+50/169 Test: t_loopback
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_loopback"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_loopback" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=1489132078,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_loopback" end time: Mar 17 18:25 CST
+"t_loopback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/169 Testing: t_loopback_win
+51/169 Test: t_loopback_win
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_loopback_win"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_loopback_win" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=4135974280,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_loopback_win" end time: Mar 17 18:25 CST
+"t_loopback_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/169 Testing: t_reorder
+52/169 Test: t_reorder
+Command: "/home/maowenjun/CS144-Labs/build/tests/fsm_reorder"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_reorder" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=5802563,payload_size=0,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_reorder" end time: Mar 17 18:25 CST
+"t_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 53/169 Testing: t_address_dt
 53/169 Test: t_address_dt
 Command: "/home/maowenjun/CS144-Labs/build/doctests/address_dt"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_address_dt" start time: Mar 16 20:31 CST
+"t_address_dt" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Mar 16 20:31 CST
+"t_address_dt" end time: Mar 17 18:25 CST
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -469,14 +846,14 @@ Test Passed.
 54/169 Test: t_parser_dt
 Command: "/home/maowenjun/CS144-Labs/build/doctests/parser_dt"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_parser_dt" start time: Mar 16 20:31 CST
+"t_parser_dt" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Mar 16 20:31 CST
+"t_parser_dt" end time: Mar 17 18:25 CST
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -484,15 +861,2040 @@ Test Passed.
 55/169 Test: t_socket_dt
 Command: "/home/maowenjun/CS144-Labs/build/doctests/socket_dt"
 Directory: /home/maowenjun/CS144-Labs/build
-"t_socket_dt" start time: Mar 16 20:31 CST
+"t_socket_dt" start time: Mar 17 18:25 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Mar 16 20:31 CST
+"t_socket_dt" end time: Mar 17 18:25 CST
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 16 20:31 CST
+56/169 Testing: t_udp_client_send
+56/169 Test: t_udp_client_send
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucS"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_client_send" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14179... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_send" end time: Mar 17 18:25 CST
+"t_udp_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/169 Testing: t_udp_server_send
+57/169 Test: t_udp_server_send
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usS"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_server_send" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33211... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_send" end time: Mar 17 18:25 CST
+"t_udp_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/169 Testing: t_udp_client_recv
+58/169 Test: t_udp_client_recv
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucR"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_client_recv" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22499... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_recv" end time: Mar 17 18:25 CST
+"t_udp_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/169 Testing: t_udp_server_recv
+59/169 Test: t_udp_server_recv
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usR"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_server_recv" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:13037... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_recv" end time: Mar 17 18:25 CST
+"t_udp_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/169 Testing: t_udp_client_dupl
+60/169 Test: t_udp_client_dupl
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucD"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_client_dupl" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:23528... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_dupl" end time: Mar 17 18:25 CST
+"t_udp_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/169 Testing: t_udp_server_dupl
+61/169 Test: t_udp_server_dupl
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usD"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_udp_server_dupl" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4372... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_dupl" end time: Mar 17 18:25 CST
+"t_udp_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/169 Testing: t_ucS_1M_32k
+62/169 Test: t_ucS_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:13988... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_1M_32k" end time: Mar 17 18:25 CST
+"t_ucS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/169 Testing: t_ucS_128K_8K
+63/169 Test: t_ucS_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33544... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K" end time: Mar 17 18:25 CST
+"t_ucS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/169 Testing: t_ucS_16_1
+64/169 Test: t_ucS_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31971... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_16_1" end time: Mar 17 18:25 CST
+"t_ucS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/169 Testing: t_ucS_32K_d
+65/169 Test: t_ucS_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14560... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_32K_d" end time: Mar 17 18:25 CST
+"t_ucS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/169 Testing: t_ucR_1M_32k
+66/169 Test: t_ucR_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:13455... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_1M_32k" end time: Mar 17 18:25 CST
+"t_ucR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/169 Testing: t_ucR_128K_8K
+67/169 Test: t_ucR_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22572... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K" end time: Mar 17 18:25 CST
+"t_ucR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/169 Testing: t_ucR_16_1
+68/169 Test: t_ucR_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5141... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_16_1" end time: Mar 17 18:25 CST
+"t_ucR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/169 Testing: t_ucR_32K_d
+69/169 Test: t_ucR_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10957... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_32K_d" end time: Mar 17 18:25 CST
+"t_ucR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/169 Testing: t_ucD_1M_32k
+70/169 Test: t_ucD_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14941... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_1M_32k" end time: Mar 17 18:25 CST
+"t_ucD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/169 Testing: t_ucD_128K_8K
+71/169 Test: t_ucD_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:8190... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K" end time: Mar 17 18:25 CST
+"t_ucD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/169 Testing: t_ucD_16_1
+72/169 Test: t_ucD_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:12748... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_16_1" end time: Mar 17 18:25 CST
+"t_ucD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/169 Testing: t_ucD_32K_d
+73/169 Test: t_ucD_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:9800... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_32K_d" end time: Mar 17 18:25 CST
+"t_ucD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/169 Testing: t_usS_1M_32k
+74/169 Test: t_usS_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5684... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_1M_32k" end time: Mar 17 18:25 CST
+"t_usS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/169 Testing: t_usS_128K_8K
+75/169 Test: t_usS_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:19035... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K" end time: Mar 17 18:25 CST
+"t_usS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/169 Testing: t_usS_16_1
+76/169 Test: t_usS_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21556... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_16_1" end time: Mar 17 18:25 CST
+"t_usS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/169 Testing: t_usS_32K_d
+77/169 Test: t_usS_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4208... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_32K_d" end time: Mar 17 18:25 CST
+"t_usS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/169 Testing: t_usR_1M_32k
+78/169 Test: t_usR_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:11757... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_1M_32k" end time: Mar 17 18:25 CST
+"t_usR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/169 Testing: t_usR_128K_8K
+79/169 Test: t_usR_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31174... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K" end time: Mar 17 18:25 CST
+"t_usR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/169 Testing: t_usR_16_1
+80/169 Test: t_usR_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:20996... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_16_1" end time: Mar 17 18:25 CST
+"t_usR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/169 Testing: t_usR_32K_d
+81/169 Test: t_usR_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:28489... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_32K_d" end time: Mar 17 18:25 CST
+"t_usR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/169 Testing: t_usD_1M_32k
+82/169 Test: t_usD_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:6769... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_1M_32k" end time: Mar 17 18:25 CST
+"t_usD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/169 Testing: t_usD_128K_8K
+83/169 Test: t_usD_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21418... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K" end time: Mar 17 18:25 CST
+"t_usD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/169 Testing: t_usD_16_1
+84/169 Test: t_usD_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22837... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_16_1" end time: Mar 17 18:25 CST
+"t_usD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/169 Testing: t_usD_32K_d
+85/169 Test: t_usD_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:30305... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_32K_d" end time: Mar 17 18:25 CST
+"t_usD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/169 Testing: t_ucS_128K_8K_l
+86/169 Test: t_ucS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:18806... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_l" end time: Mar 17 18:25 CST
+"t_ucS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/169 Testing: t_ucS_128K_8K_L
+87/169 Test: t_ucS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:7411... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_L" end time: Mar 17 18:25 CST
+"t_ucS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/169 Testing: t_ucS_128K_8K_lL
+88/169 Test: t_ucS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucS_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22811... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_ucS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/169 Testing: t_ucR_128K_8K_l
+89/169 Test: t_ucR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33167... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_l" end time: Mar 17 18:25 CST
+"t_ucR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/169 Testing: t_ucR_128K_8K_L
+90/169 Test: t_ucR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:20717... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_L" end time: Mar 17 18:25 CST
+"t_ucR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/169 Testing: t_ucR_128K_8K_lL
+91/169 Test: t_ucR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucR_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:18126... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_ucR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/169 Testing: t_ucD_128K_8K_l
+92/169 Test: t_ucD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21751... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_l" end time: Mar 17 18:25 CST
+"t_ucD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/169 Testing: t_ucD_128K_8K_L
+93/169 Test: t_ucD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15386... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_L" end time: Mar 17 18:25 CST
+"t_ucD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/169 Testing: t_ucD_128K_8K_lL
+94/169 Test: t_ucD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ucD_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:17214... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_ucD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/169 Testing: t_usS_128K_8K_l
+95/169 Test: t_usS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32705... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_l" end time: Mar 17 18:25 CST
+"t_usS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/169 Testing: t_usS_128K_8K_L
+96/169 Test: t_usS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31959... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_L" end time: Mar 17 18:25 CST
+"t_usS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/169 Testing: t_usS_128K_8K_lL
+97/169 Test: t_usS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usS_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:17756... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_usS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/169 Testing: t_usR_128K_8K_l
+98/169 Test: t_usR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:8885... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_l" end time: Mar 17 18:25 CST
+"t_usR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/169 Testing: t_usR_128K_8K_L
+99/169 Test: t_usR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:3762... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_L" end time: Mar 17 18:25 CST
+"t_usR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/169 Testing: t_usR_128K_8K_lL
+100/169 Test: t_usR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usR_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4269... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_usR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/169 Testing: t_usD_128K_8K_l
+101/169 Test: t_usD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:20568... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_l" end time: Mar 17 18:25 CST
+"t_usD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/169 Testing: t_usD_128K_8K_L
+102/169 Test: t_usD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:18091... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_L" end time: Mar 17 18:25 CST
+"t_usD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/169 Testing: t_usD_128K_8K_lL
+103/169 Test: t_usD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_usD_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4925... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_usD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/169 Testing: t_ipv4_client_send
+104/169 Test: t_ipv4_client_send
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icS"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_client_send" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27996... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_client_send" end time: Mar 17 18:25 CST
+"t_ipv4_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/169 Testing: t_ipv4_server_send
+105/169 Test: t_ipv4_server_send
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isS"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_server_send" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:30526... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_server_send" end time: Mar 17 18:25 CST
+"t_ipv4_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/169 Testing: t_ipv4_client_recv
+106/169 Test: t_ipv4_client_recv
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icR"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_client_recv" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:28156... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_client_recv" end time: Mar 17 18:25 CST
+"t_ipv4_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/169 Testing: t_ipv4_server_recv
+107/169 Test: t_ipv4_server_recv
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isR"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_server_recv" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:4438... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_server_recv" end time: Mar 17 18:25 CST
+"t_ipv4_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/169 Testing: t_ipv4_client_dupl
+108/169 Test: t_ipv4_client_dupl
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icD"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_client_dupl" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27567... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_client_dupl" end time: Mar 17 18:25 CST
+"t_ipv4_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/169 Testing: t_ipv4_server_dupl
+109/169 Test: t_ipv4_server_dupl
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isD"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_ipv4_server_dupl" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:11360... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ipv4_server_dupl" end time: Mar 17 18:25 CST
+"t_ipv4_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/169 Testing: t_icS_1M_32k
+110/169 Test: t_icS_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31843... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_1M_32k" end time: Mar 17 18:25 CST
+"t_icS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/169 Testing: t_icS_128K_8K
+111/169 Test: t_icS_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:20523... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K" end time: Mar 17 18:25 CST
+"t_icS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/169 Testing: t_icS_16_1
+112/169 Test: t_icS_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:10363... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_16_1" end time: Mar 17 18:25 CST
+"t_icS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/169 Testing: t_icS_32K_d
+113/169 Test: t_icS_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:5690... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_32K_d" end time: Mar 17 18:25 CST
+"t_icS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/169 Testing: t_icR_1M_32k
+114/169 Test: t_icR_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:19953... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_1M_32k" end time: Mar 17 18:25 CST
+"t_icR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/169 Testing: t_icR_128K_8K
+115/169 Test: t_icR_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:14442... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K" end time: Mar 17 18:25 CST
+"t_icR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/169 Testing: t_icR_16_1
+116/169 Test: t_icR_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:8119... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_16_1" end time: Mar 17 18:25 CST
+"t_icR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/169 Testing: t_icR_32K_d
+117/169 Test: t_icR_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:10742... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_32K_d" end time: Mar 17 18:25 CST
+"t_icR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/169 Testing: t_icD_1M_32k
+118/169 Test: t_icD_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:13815... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_1M_32k" end time: Mar 17 18:25 CST
+"t_icD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/169 Testing: t_icD_128K_8K
+119/169 Test: t_icD_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15238... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K" end time: Mar 17 18:25 CST
+"t_icD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/169 Testing: t_icD_16_1
+120/169 Test: t_icD_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15722... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_16_1" end time: Mar 17 18:25 CST
+"t_icD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/169 Testing: t_icD_32K_d
+121/169 Test: t_icD_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30033... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_32K_d" end time: Mar 17 18:25 CST
+"t_icD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/169 Testing: t_isS_1M_32k
+122/169 Test: t_isS_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:22033... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_1M_32k" end time: Mar 17 18:25 CST
+"t_isS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/169 Testing: t_isS_128K_8K
+123/169 Test: t_isS_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:11234... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K" end time: Mar 17 18:25 CST
+"t_isS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/169 Testing: t_isS_16_1
+124/169 Test: t_isS_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:6881... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_16_1" end time: Mar 17 18:25 CST
+"t_isS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/169 Testing: t_isS_32K_d
+125/169 Test: t_isS_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:26954... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_32K_d" end time: Mar 17 18:25 CST
+"t_isS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/169 Testing: t_isR_1M_32k
+126/169 Test: t_isR_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:30879... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_1M_32k" end time: Mar 17 18:25 CST
+"t_isR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/169 Testing: t_isR_128K_8K
+127/169 Test: t_isR_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:19752... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K" end time: Mar 17 18:25 CST
+"t_isR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/169 Testing: t_isR_16_1
+128/169 Test: t_isR_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:33339... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_16_1" end time: Mar 17 18:25 CST
+"t_isR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/169 Testing: t_isR_32K_d
+129/169 Test: t_isR_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:14150... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_32K_d" end time: Mar 17 18:25 CST
+"t_isR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/169 Testing: t_isD_1M_32k
+130/169 Test: t_isD_1M_32k
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "1M" "-w" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_1M_32k" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:32573... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_1M_32k" end time: Mar 17 18:25 CST
+"t_isD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/169 Testing: t_isD_128K_8K
+131/169 Test: t_isD_128K_8K
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "128K" "-w" "8K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_128K_8K" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:14054... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K" end time: Mar 17 18:25 CST
+"t_isD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/169 Testing: t_isD_16_1
+132/169 Test: t_isD_16_1
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "16" "-w" "1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_16_1" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:21050... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_16_1" end time: Mar 17 18:25 CST
+"t_isD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/169 Testing: t_isD_32K_d
+133/169 Test: t_isD_32K_d
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "32K"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_32K_d" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:2829... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_32K_d" end time: Mar 17 18:25 CST
+"t_isD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+134/169 Testing: t_icS_128K_8K_l
+134/169 Test: t_icS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30254... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+135/169 Testing: t_icS_128K_8K_L
+135/169 Test: t_icS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15509... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+136/169 Testing: t_icS_128K_8K_lL
+136/169 Test: t_icS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icS_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:2830... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+137/169 Testing: t_icR_128K_8K_l
+137/169 Test: t_icR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:5538... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+138/169 Testing: t_icR_128K_8K_L
+138/169 Test: t_icR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:28230... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+139/169 Testing: t_icR_128K_8K_lL
+139/169 Test: t_icR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icR_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30042... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+140/169 Testing: t_icD_128K_8K_l
+140/169 Test: t_icD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:25955... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+141/169 Testing: t_icD_128K_8K_L
+141/169 Test: t_icD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15851... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+142/169 Testing: t_icD_128K_8K_lL
+142/169 Test: t_icD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icD_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:26941... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+143/169 Testing: t_isS_128K_8K_l
+143/169 Test: t_isS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:23999... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_l" end time: Mar 17 18:25 CST
+"t_isS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+144/169 Testing: t_isS_128K_8K_L
+144/169 Test: t_isS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:17095... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_L" end time: Mar 17 18:25 CST
+"t_isS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+145/169 Testing: t_isS_128K_8K_lL
+145/169 Test: t_isS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isS_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:17002... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_isS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+146/169 Testing: t_isR_128K_8K_l
+146/169 Test: t_isR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:5713... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_l" end time: Mar 17 18:25 CST
+"t_isR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+147/169 Testing: t_isR_128K_8K_L
+147/169 Test: t_isR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:27726... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_L" end time: Mar 17 18:25 CST
+"t_isR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+148/169 Testing: t_isR_128K_8K_lL
+148/169 Test: t_isR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isR_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:9157... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_isR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+149/169 Testing: t_isD_128K_8K_l
+149/169 Test: t_isD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:28962... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_l" end time: Mar 17 18:25 CST
+"t_isD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+150/169 Testing: t_isD_128K_8K_L
+150/169 Test: t_isD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:29919... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_L" end time: Mar 17 18:25 CST
+"t_isD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+151/169 Testing: t_isD_128K_8K_lL
+151/169 Test: t_isD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isD_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:27510... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_isD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+152/169 Testing: t_icnS_128K_8K_l
+152/169 Test: t_icnS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:20760... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icnS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+153/169 Testing: t_icnS_128K_8K_L
+153/169 Test: t_icnS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnS_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:27692... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icnS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+154/169 Testing: t_icnS_128K_8K_lL
+154/169 Test: t_icnS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnS_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:32033... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icnS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+155/169 Testing: t_icnR_128K_8K_l
+155/169 Test: t_icnR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnR_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:1694... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icnR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+156/169 Testing: t_icnR_128K_8K_L
+156/169 Test: t_icnR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnR_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:7502... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icnR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+157/169 Testing: t_icnR_128K_8K_lL
+157/169 Test: t_icnR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnR_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:21681... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icnR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+158/169 Testing: t_icnD_128K_8K_l
+158/169 Test: t_icnD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnD_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:1250... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_l" end time: Mar 17 18:25 CST
+"t_icnD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+159/169 Testing: t_icnD_128K_8K_L
+159/169 Test: t_icnD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnD_128K_8K_L" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:31968... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_L" end time: Mar 17 18:25 CST
+"t_icnD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+160/169 Testing: t_icnD_128K_8K_lL
+160/169 Test: t_icnD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_icnD_128K_8K_lL" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:28310... Warning: Unclean shutdown of TCPConnection
+Exception: After TCPConnection::connect(), state was sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1 but expected sender=`stream started but nothing acknowledged`, receiver=`waiting for SYN: ackno is empty`, active=1, linger_after_streams_finish=1
+Error in _rt_connect
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_lL" end time: Mar 17 18:25 CST
+"t_icnD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+161/169 Testing: t_isnS_128K_8K_l
+161/169 Test: t_isnS_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnS_128K_8K_l" start time: Mar 17 18:25 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_l" end time: Mar 17 18:26 CST
+"t_isnS_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+162/169 Testing: t_isnS_128K_8K_L
+162/169 Test: t_isnS_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnS_128K_8K_L" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_L" end time: Mar 17 18:26 CST
+"t_isnS_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+163/169 Testing: t_isnS_128K_8K_lL
+163/169 Test: t_isnS_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnS_128K_8K_lL" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_lL" end time: Mar 17 18:26 CST
+"t_isnS_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+164/169 Testing: t_isnR_128K_8K_l
+164/169 Test: t_isnR_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnR_128K_8K_l" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_l" end time: Mar 17 18:26 CST
+"t_isnR_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+165/169 Testing: t_isnR_128K_8K_L
+165/169 Test: t_isnR_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnR_128K_8K_L" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_L" end time: Mar 17 18:26 CST
+"t_isnR_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+166/169 Testing: t_isnR_128K_8K_lL
+166/169 Test: t_isnR_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnR_128K_8K_lL" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_lL" end time: Mar 17 18:26 CST
+"t_isnR_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+167/169 Testing: t_isnD_128K_8K_l
+167/169 Test: t_isnD_128K_8K_l
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnD_128K_8K_l" start time: Mar 17 18:26 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_l" end time: Mar 17 18:27 CST
+"t_isnD_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+168/169 Testing: t_isnD_128K_8K_L
+168/169 Test: t_isnD_128K_8K_L
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnD_128K_8K_L" start time: Mar 17 18:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_L" end time: Mar 17 18:27 CST
+"t_isnD_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+169/169 Testing: t_isnD_128K_8K_lL
+169/169 Test: t_isnD_128K_8K_lL
+Command: "/home/maowenjun/CS144-Labs/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/maowenjun/CS144-Labs/build
+"t_isnD_128K_8K_lL" start time: Mar 17 18:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_lL" end time: Mar 17 18:27 CST
+"t_isnD_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+End testing: Mar 17 18:27 CST
