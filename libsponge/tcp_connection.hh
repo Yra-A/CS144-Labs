@@ -26,6 +26,7 @@ class TCPConnection {
     size_t _time_since_last_segment_received = 0;
 
     void send_data();
+    void reset_connection();
 
   public:
     //! \name "Input" interface for the writer

@@ -33,7 +33,9 @@ DUMMY_CODE(seg);
 return;
 }
 
-bool TCPConnection::active() const { return _active; }
+bool TCPConnection::active() const {
+    return _active; 
+}
 
 size_t TCPConnection::write(const string &data) {
     if (data.empty()) {
@@ -48,7 +50,31 @@ size_t TCPConnection::write(const string &data) {
 }
 
 //! \param[in] ms_since_last_tick number of milliseconds since the last call to this method
-void TCPConnection::tick(const size_t ms_since_last_tick) { DUMMY_CODE(ms_since_last_tick); }
+void TCPConnection::tick(const size_t ms_since_last_tick) {
+    if (_active == false) return;
+
+    _time_since_last_segment_received += ms_since_last_tick;
+    _sender.tick(ms_since_last_tick);
+
+    if (_sender.consecutive_retransmissions() > TCPConfig::MAX_RETX_ATTEMPTS) { // 重传次数超过上限
+        reset_connection(); // 设置 RST
+        return;
+    }
+    send_data();
+}
+
+void TCPConnection::reset_connection() {
+    // 发送 RST 段
+    TCPSegment seg;
+    seg.header().rst = true;
+    segments_out().emplace(seg);
+
+    // 标记错误 和 设置 _active
+    _sender.stream_in().set_error();
+    _receiver.stream_out().set_error();
+    _active = true; 
+     
+}
 
 void TCPConnection::end_input_stream() {
     // 我方发送完毕
@@ -95,6 +121,7 @@ TCPConnection::~TCPConnection() {
             cerr << "Warning: Unclean shutdown of TCPConnection\n";
 
             // Your code here: need to send a RST segment to the peer
+            reset_connection();
         }
     } catch (const exception &e) {
         std::cerr << "Exception destructing TCP FSM: " << e.what() << std::endl;
