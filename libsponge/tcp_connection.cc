@@ -29,8 +29,117 @@ size_t TCPConnection::time_since_last_segment_received() const {
 }
 
 void TCPConnection::segment_received(const TCPSegment &seg) {
-DUMMY_CODE(seg);
-return;
+    if (_active) return;
+
+    _time_since_last_segment_received = 0; // 重置时间
+
+    // 收到 RST 段
+    if (seg.header().rst == true) { 
+        _sender.stream_in().set_error();
+        _receiver.stream_out().set_error();
+        _active = true; 
+    } 
+    // Listening !!!!!!!!!!!!!!!!
+    else if (_receiver.ackno().has_value() == false) {
+        // 被动连接 Passive open（进入SYN_REVD）
+        if (seg.header().syn) {
+            _receiver.segment_received(seg);
+            connect(); // 会发送 ACK 和 SYN
+        }   
+    }
+    // CLOSED 此时收到 seg 不会有操作 !!!!!!!!!!!!!!!!
+    else if (_sender.next_seqno_absolute() == 0) { }
+    // SYN_REVD !!!!!!!!!!!!!!!!!!!!!!!
+    else if (_receiver.ackno().has_value() == true && _receiver.stream_out().input_ended() == false) { // !!!!!!!!!!!!!!!!!!!!!!
+        // sender 接受 ACK（进入ESTABLISHED）
+        _receiver.segment_received(seg);
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+    }
+    // SYN_SENT !!!!!!!!!!!!!!!!!!!!
+    else if (_sender.next_seqno_absolute() > 0 && _sender.next_seqno_absolute() == _sender.bytes_in_flight()) {
+        // client 收到 ACK 和 SYN，发送 ACK 后进入 ESTABLISHED
+        if (seg.header().ack == true && seg.header().syn == true) {
+            _sender.ack_received(seg.header().ackno, seg.header().win);
+            _receiver.segment_received(seg);
+            _sender.send_empty_segment(); // 通过空包，来发送 ACK
+            // send_data(); // !!!!!!!!!!!!!!!!!!
+        }       
+        // client 也作为 server，收到了 SYN，发送 SYN 和 ACK 后进入 SYN_REVD
+        else if (seg.header().syn == true && seg.header().ack == false) {
+            _receiver.segment_received(seg);
+            // _sender.send_empty_segment(); // 发送 ACK
+            // send_data(); // 发送
+            connect(); // !!!!!!!!!!!!!!
+        }
+    }
+    // ESTABLISHED
+    else if (_sender.next_seqno_absolute() > _sender.bytes_in_flight() && _sender.stream_in().eof() == false) {
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+        _receiver.segment_received(seg);
+        if (seg.length_in_sequence_space() > 0) {
+            _sender.send_empty_segment(); // 发送 ACK
+        }
+        _sender.fill_window();
+        send_data();
+    }
+    // FIN_WAIT_1（发送完毕，但接受未完毕）
+    else if (_sender.stream_in().eof() == true &&
+             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
+             _sender.bytes_in_flight() > 0 &&
+             _receiver.stream_out().input_ended() == false)
+    { // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        // 收到 FIN，进入 CLOSING
+        if (seg.header().fin == true && seg.header().ack == false) {
+            _sender.ack_received(seg.header().ackno, seg.header().win);
+            _receiver.segment_received(seg);
+        } 
+        // 收到 FIN、ACK，发送 ACK，进入 TIME_WAIT
+        else if (seg.header().fin == true && seg.header().ack == true) {
+            _sender.ack_received(seg.header().ackno, seg.header().win);
+            _receiver.segment_received(seg);
+            _sender.send_empty_segment();
+            send_data();
+        }
+        // 收到 ACK，进入 FIN_WAIT_2
+        else if (seg.header().fin == false && seg.header().ack == true) {
+            _sender.ack_received(seg.header().ackno, seg.header().win);
+            _receiver.segment_received(seg);
+            send_data(); // !!!!!!!!!!!!!!!!!!!!!!
+        }
+    }
+    // FIN_WAIT_2，收到 FIN，发送 ACK，进入 TIME_WAIT
+    else if (_sender.stream_in().eof() == true &&
+             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
+             _sender.bytes_in_flight() == 0 &&
+             _receiver.stream_out().input_ended() == false)
+    {
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+        _receiver.segment_received(seg);
+        _sender.send_empty_segment();
+        send_data();
+    }
+    // TIME_WAIT
+    else if (_sender.stream_in().eof() == true &&
+             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
+             _sender.bytes_in_flight() == 0 &&
+             _receiver.stream_out().input_ended() == true)
+    {
+        // 收到 FIN 的话就发送 ACK（不断开连接）
+        if (seg.header().fin == true) {
+            _sender.ack_received(seg.header().ackno, seg.header().win);
+            _receiver.segment_received(seg);
+            _sender.send_empty_segment();
+            send_data();
+        }
+    }
+    // 其他状态
+    {
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+        _receiver.segment_received(seg);
+        _sender.fill_window();
+        send_data();
+    }
+
 }
 
 bool TCPConnection::active() const {
@@ -84,7 +193,7 @@ void TCPConnection::end_input_stream() {
 }
 
 void TCPConnection::connect() {
-    // 我方主动发起连接，第一次 fill_window 会发送 SYN
+    // 我方发起连接，第一次 fill_window 会发送 SYN
     _sender.fill_window();
     send_data();
 }
