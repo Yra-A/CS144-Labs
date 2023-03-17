@@ -28,8 +28,9 @@ size_t TCPConnection::time_since_last_segment_received() const {
     return _time_since_last_segment_received; 
 }
 
+// sender、receiver、connection 确定唯一状态，对照 tcp_state.cc
 void TCPConnection::segment_received(const TCPSegment &seg) {
-    if (_active) return;
+    if (_active == false) return;
 
     _time_since_last_segment_received = 0; // 重置时间
 
@@ -37,26 +38,30 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     if (seg.header().rst == true) { 
         _sender.stream_in().set_error();
         _receiver.stream_out().set_error();
-        _active = true; 
+        _active = false; 
     } 
-    // Listening !!!!!!!!!!!!!!!!
-    else if (_receiver.ackno().has_value() == false) {
+    // LISTEN
+    else if (_sender.next_seqno_absolute() == 0 && _receiver.ackno().has_value() == false) {
         // 被动连接 Passive open（进入SYN_REVD）
         if (seg.header().syn) {
             _receiver.segment_received(seg);
             connect(); // 会发送 ACK 和 SYN
         }   
     }
-    // CLOSED 此时收到 seg 不会有操作 !!!!!!!!!!!!!!!!
-    else if (_sender.next_seqno_absolute() == 0) { }
-    // SYN_REVD !!!!!!!!!!!!!!!!!!!!!!!
-    else if (_receiver.ackno().has_value() == true && _receiver.stream_out().input_ended() == false) { // !!!!!!!!!!!!!!!!!!!!!!
+    // SYN_REVD
+    else if (_receiver.ackno().has_value() == true &&
+             _receiver.stream_out().input_ended() == false && _sender.next_seqno_absolute() == _sender.bytes_in_flight() &&
+             _sender.next_seqno_absolute() > 0) 
+    {
         // sender 接受 ACK（进入ESTABLISHED）
         _receiver.segment_received(seg);
         _sender.ack_received(seg.header().ackno, seg.header().win);
     }
-    // SYN_SENT !!!!!!!!!!!!!!!!!!!!
-    else if (_sender.next_seqno_absolute() > 0 && _sender.next_seqno_absolute() == _sender.bytes_in_flight()) {
+    // SYN_SENT
+    else if (_receiver.ackno().has_value() == false &&
+             _sender.next_seqno_absolute() > 0 &&
+             _sender.next_seqno_absolute() == _sender.bytes_in_flight()) 
+    {
         // client 收到 ACK 和 SYN，发送 ACK 后进入 ESTABLISHED
         if (seg.header().ack == true && seg.header().syn == true) {
             _sender.ack_received(seg.header().ackno, seg.header().win);
@@ -73,7 +78,10 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         }
     }
     // ESTABLISHED
-    else if (_sender.next_seqno_absolute() > _sender.bytes_in_flight() && _sender.stream_in().eof() == false) {
+    else if (_receiver.ackno().has_value() == true && 
+             _sender.next_seqno_absolute() > _sender.bytes_in_flight() &&
+             _sender.stream_in().eof() == false) 
+    {
         _sender.ack_received(seg.header().ackno, seg.header().win);
         _receiver.segment_received(seg);
         if (seg.length_in_sequence_space() > 0) {
@@ -151,11 +159,10 @@ size_t TCPConnection::write(const string &data) {
         return 0;
     }
 
-    _sender.stream_in().write(data); // 往发送方的 bytestream 写入数据
+    size_t res = _sender.stream_in().write(data); // 往发送方的 bytestream 写入数据
     _sender.fill_window(); // 根据接收窗口发送数据，数据放进 _segments_out
     send_data(); // 发送数据到 receiver
-
-    return data.size();
+    return res;
 }
 
 //! \param[in] ms_since_last_tick number of milliseconds since the last call to this method
@@ -181,7 +188,7 @@ void TCPConnection::reset_connection() {
     // 标记错误 和 设置 _active
     _sender.stream_in().set_error();
     _receiver.stream_out().set_error();
-    _active = true; 
+    _active = false; 
      
 }
 
