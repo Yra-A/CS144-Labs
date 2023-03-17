@@ -68,7 +68,6 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     std::string sen_st = get_sender_state(_sender);
     std::string rev_st = get_receiver_state(_receiver);
 
-    if ( _sender.next_seqno_absolute() > _sender.bytes_in_flight() && !_sender.stream_in().eof()) std::cerr << rev_st << " " << sen_st << " " << _linger_after_streams_finish << "------------------\n";
     _time_since_last_segment_received = 0; // 重置时间
 
     // 收到 RST 段
