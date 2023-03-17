@@ -108,7 +108,7 @@ int main() {
             test_3.execute(ExpectState{State::CLOSED});
         }
     } catch (const exception &e) {
-        cerr << e.what() << endl;
+        cerr << e.what() << "寄" << endl;
         return 1;
     }
 

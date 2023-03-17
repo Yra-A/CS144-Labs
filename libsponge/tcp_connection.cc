@@ -32,6 +32,43 @@ size_t TCPConnection::time_since_last_segment_received() const {
 void TCPConnection::segment_received(const TCPSegment &seg) {
     if (_active == false) return;
 
+    // 获取 sender 状态
+    auto get_sender_state = [&](const TCPSender &sender) {
+        if (sender.stream_in().error()) {
+            return "ERROR";
+        } else if (sender.next_seqno_absolute() == 0) {
+            return "CLOSED";
+        } else if (sender.next_seqno_absolute() == sender.bytes_in_flight()) {
+            return "SYN_SENT";
+        } else if (not sender.stream_in().eof()) {
+            return "SYN_ACKED";
+        } else if (sender.next_seqno_absolute() < sender.stream_in().bytes_written() + 2) {
+            return "SYN_ACKED";
+        } else if (sender.bytes_in_flight()) {
+            return "FIN_SENT";
+        } else {
+            return "FIN_ACKED";
+        }
+    };
+
+    // 获取 receiver 状态
+    auto get_receiver_state = [&](const TCPReceiver &receiver) {
+        if (receiver.stream_out().error()) {
+            return "ERROR";
+        } else if (not receiver.ackno().has_value()) {
+            return "LISTEN";
+        } else if (receiver.stream_out().input_ended()) {
+            return "FIN_RECV";
+        } else {
+            return "SYN_RECV";
+        }
+    };
+
+
+    std::string sen_st = get_sender_state(_sender);
+    std::string rev_st = get_receiver_state(_receiver);
+
+    if ( _sender.next_seqno_absolute() > _sender.bytes_in_flight() && !_sender.stream_in().eof()) std::cerr << rev_st << " " << sen_st << " " << _linger_after_streams_finish << "------------------\n";
     _time_since_last_segment_received = 0; // 重置时间
 
     // 收到 RST 段
@@ -41,7 +78,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         _active = false; 
     } 
     // LISTEN
-    else if (_sender.next_seqno_absolute() == 0 && _receiver.ackno().has_value() == false) {
+    else if (rev_st == "LISTEN" && sen_st == "CLOSED" && _linger_after_streams_finish == true) {
         // 被动连接 Passive open（进入SYN_REVD）
         if (seg.header().syn) {
             _receiver.segment_received(seg);
@@ -49,39 +86,31 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         }   
     }
     // SYN_REVD
-    else if (_receiver.ackno().has_value() == true &&
-             _receiver.stream_out().input_ended() == false && _sender.next_seqno_absolute() == _sender.bytes_in_flight() &&
-             _sender.next_seqno_absolute() > 0) 
+    else if (rev_st == "SYN_RECV" && sen_st == "SYN_SENT" && _linger_after_streams_finish == true) 
     {
         // sender 接受 ACK（进入ESTABLISHED）
         _receiver.segment_received(seg);
         _sender.ack_received(seg.header().ackno, seg.header().win);
     }
     // SYN_SENT
-    else if (_receiver.ackno().has_value() == false &&
-             _sender.next_seqno_absolute() > 0 &&
-             _sender.next_seqno_absolute() == _sender.bytes_in_flight()) 
+    else if (rev_st == "LISTEN" && sen_st == "SYN_SENT" && _linger_after_streams_finish == true) 
     {
         // client 收到 ACK 和 SYN，发送 ACK 后进入 ESTABLISHED
         if (seg.header().ack == true && seg.header().syn == true) {
             _sender.ack_received(seg.header().ackno, seg.header().win);
             _receiver.segment_received(seg);
             _sender.send_empty_segment(); // 通过空包，来发送 ACK
-            // send_data(); // !!!!!!!!!!!!!!!!!!
+            send_data();
         }       
         // client 也作为 server，收到了 SYN，发送 SYN 和 ACK 后进入 SYN_REVD
         else if (seg.header().syn == true && seg.header().ack == false) {
             _receiver.segment_received(seg);
-            // _sender.send_empty_segment(); // 发送 ACK
-            // send_data(); // 发送
-            connect(); // !!!!!!!!!!!!!!
+            _sender.send_empty_segment();
+            send_data();
         }
     }
     // ESTABLISHED
-    else if (_receiver.ackno().has_value() == true && 
-             _sender.next_seqno_absolute() > _sender.bytes_in_flight() &&
-             _sender.stream_in().eof() == false) 
-    {
+    else if (rev_st == "SYN_RECV" && sen_st == "SYN_ACKED" && _linger_after_streams_finish == true) {
         _sender.ack_received(seg.header().ackno, seg.header().win);
         _receiver.segment_received(seg);
         if (seg.length_in_sequence_space() > 0) {
@@ -91,11 +120,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         send_data();
     }
     // FIN_WAIT_1（发送完毕，但接受未完毕）
-    else if (_sender.stream_in().eof() == true &&
-             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
-             _sender.bytes_in_flight() > 0 &&
-             _receiver.stream_out().input_ended() == false)
-    { // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    else if (rev_st == "SYN_RECV" && sen_st == "FIN_SENT" && _linger_after_streams_finish == true) {
         // 收到 FIN，进入 CLOSING
         if (seg.header().fin == true && seg.header().ack == false) {
             _sender.ack_received(seg.header().ackno, seg.header().win);
@@ -112,26 +137,18 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         else if (seg.header().fin == false && seg.header().ack == true) {
             _sender.ack_received(seg.header().ackno, seg.header().win);
             _receiver.segment_received(seg);
-            send_data(); // !!!!!!!!!!!!!!!!!!!!!!
+            send_data();
         }
     }
     // FIN_WAIT_2，收到 FIN，发送 ACK，进入 TIME_WAIT
-    else if (_sender.stream_in().eof() == true &&
-             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
-             _sender.bytes_in_flight() == 0 &&
-             _receiver.stream_out().input_ended() == false)
-    {
+    else if (rev_st == "SYN_RECV" && sen_st == "FIN_ACKED" && _linger_after_streams_finish == true) {
         _sender.ack_received(seg.header().ackno, seg.header().win);
         _receiver.segment_received(seg);
         _sender.send_empty_segment();
         send_data();
     }
     // TIME_WAIT
-    else if (_sender.stream_in().eof() == true &&
-             _sender.next_seqno_absolute() == _sender.stream_in().bytes_written() + 2 && 
-             _sender.bytes_in_flight() == 0 &&
-             _receiver.stream_out().input_ended() == true)
-    {
+    else if (rev_st == "FIN_RECV" && sen_st == "FIN_ACKED" && _linger_after_streams_finish == true) {
         // 收到 FIN 的话就发送 ACK（不断开连接）
         if (seg.header().fin == true) {
             _sender.ack_received(seg.header().ackno, seg.header().win);
@@ -140,11 +157,24 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
             send_data();
         }
     }
-    // 其他状态
-    {
+    // CLOSE_WAIT
+    else if (rev_st == "FIN_RECV" && sen_st == "SYN_ACKED" && _linger_after_streams_finish == false) {
         _sender.ack_received(seg.header().ackno, seg.header().win);
         _receiver.segment_received(seg);
-        _sender.fill_window();
+        send_data();
+    }
+    // LAST_ACK
+    else if (rev_st == "FIN_RECV" && sen_st == "FIN_SENT" && _linger_after_streams_finish == false) {
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+        _receiver.segment_received(seg);
+        if (_sender.bytes_in_flight() == 0) {
+            _active = false;
+        }
+    }
+    // CLOSING
+    else if (rev_st == "FIN_RECV" && sen_st == "FIN_SENT" && _linger_after_streams_finish == true) {
+        _sender.ack_received(seg.header().ackno, seg.header().win);
+        _receiver.segment_received(seg);
         send_data();
     }
 
