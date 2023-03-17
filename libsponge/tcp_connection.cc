@@ -161,7 +161,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     else if (rev_st == "FIN_RECV" && sen_st == "SYN_ACKED" && _linger_after_streams_finish == false) {
         if (seg.header().fin) { // 此状态接收到 FIN 报文段说明需要重传
             _sender.send_empty_segment();
-            return;
+            // return;
         }
         // 继续发送数据
         _sender.ack_received(seg.header().ackno, seg.header().win);
